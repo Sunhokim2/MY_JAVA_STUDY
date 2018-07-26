@@ -3,7 +3,7 @@ package icehs.science.chapter06;
 public class Car {
 	int oilAmount;
 	double distance;
-	String carName;
+	public String carName;
 	
 	void addOil(int oil) {
 		oilAmount += oil;

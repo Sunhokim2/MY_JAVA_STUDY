@@ -1,10 +1,14 @@
 package icehs.science.chapter07;
 
+import icehs.science.chapter06.Car;
+
 public class BookTest {
 
 	public static void main(String[] args) {
 		Book book1 = new Book();
-		
+		Car c1 = new Car();
+		System.out.println(c1.carName);
+	
 		Book book2 = new Book("해리포터", 15000);
 		
 		Book book3 = new Book("칼의 노래", "김훈");

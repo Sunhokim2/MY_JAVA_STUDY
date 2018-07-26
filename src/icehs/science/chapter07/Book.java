@@ -1,9 +1,9 @@
 package icehs.science.chapter07;
 
 public class Book {
-	String title;
-	String author;
-	int price;
+	 String title;
+	 String author;
+	 int price;
 	
 	Book(){
 		

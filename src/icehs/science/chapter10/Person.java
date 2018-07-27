@@ -1,4 +1,4 @@
-package icehs.science.chapter09;
+package icehs.science.chapter10;
 
 public class Person {
 	private String name;
@@ -8,8 +8,13 @@ public class Person {
 		System.out.println("밥을 먹어요.");
 	}
 	
+	public void sleep() {
+	System.out.println("잠자기");
 }
-
+	public void teach() {
+		
+	}
+}
 class Student extends Person{
 	private String department;
 	
@@ -22,6 +27,10 @@ class Student extends Person{
 		super.eat();
 		System.out.println("조별로 먹어요.");
 	}
+	
+	public void sleep() {
+		System.out.println("A동에서 잔다.");
+	}
 }
 
 class Teacher extends Person{
@@ -32,6 +41,11 @@ class Teacher extends Person{
 	}
 	
 	public void eat() {
+		super.eat();
 		System.out.println("다같이 먹어요.");
+	}
+	
+	public void sleep() {
+		System.out.println("B동에서 잠을 잡니다.");
 	}
 }

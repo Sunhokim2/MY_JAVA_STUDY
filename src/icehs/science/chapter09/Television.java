@@ -1,4 +1,4 @@
-package icehs.science.chapter09;
+/*package icehs.science.chapter09;
 
 public class Television extends Product {
 	private String description;
@@ -8,3 +8,4 @@ public class Television extends Product {
 			this.description = description;
 	}
 }
+*/

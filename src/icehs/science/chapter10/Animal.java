@@ -1,11 +1,14 @@
-package icehs.science.chapter09;
+package icehs.science.chapter10;
 
 public class Animal {
 	private String kind;
 	private int age;
 	private String name;
 	
-	
+	public Animal(int age, String kind) {
+		this.age = age;
+		this.kind= kind;
+	}
 	
 	public Animal(String name, int age, String kind) {
 		this.kind = kind;
